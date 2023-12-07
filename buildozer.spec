@@ -91,7 +91,8 @@ android.presplash_color = black
 # (str) Adaptive icon of the application (used if Android API level is 26+ at runtime)
 #icon.adaptive_foreground.filename = %(source.dir)s/data/icon_fg.png
 #icon.adaptive_background.filename = %(source.dir)s/data/icon_bg.png
-
+# (int) Android API to use
+android.api = YOUR_TARGET_API_LEVEL
 # (list) Permissions
 #android.permissions = INTERNET
 
@@ -99,7 +100,7 @@ android.presplash_color = black
 #android.features = android.hardware.usb.host
 
 # (int) Target Android API, should be as high as possible.
-android.api = 27
+#android.api = 27
 
 # (int) Minimum API your APK / AAB will support.
 #android.minapi = 21
